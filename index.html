@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <!-- CSS -->
+         <link rel="stylesheet" href="style.css">
+        <!--   FONTS   -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+         <title>Flashcard App</title>
+    </head>
+    <body>
+        <header>
+            <p class="add-flash"><b>Study Flashcards</b></p>
+        </header>
+        <form id="new_card">
+            <p id="feedback"><b>Error: Please enter valid value</b></p>
+            <p class="title">Question:</p>
+            <textarea id="question-input" placeholder="This is where the question goes..."></textarea>
+            <p class="title">Answer:</p>
+            <textarea id="answer-input" placeholder="This is where the answer goes..."></textarea>
+            <button type="submit" class="item-create item-button" id="item-create">Create Flashcard</button>
+        </form>
+        
+        <div id="item-container">
+<!--
+            <div class="item">
+                <p class="question">Question Here</p><hr><p class="answer" id=
+"answer">Answer Here</p><button class="item-show item-button">Show/Hide Answer</button><button class="item-edit item-button">Edit</button> <button class="item-delete item-button">Delete</button>
+            </div>
+-->
+        </div>
+        <button type="button" class="item-button item-clear" id="clear-list">Clear ALL Flashcards</button>
+
+<!--   SCRIPTS HERE     -->
+        <script src="code.js"></script>
+    </body>
+
+</html>
